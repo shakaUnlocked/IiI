@@ -5,10 +5,10 @@ local Players = game:GetService("Players")
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "aa",
+    Title = "open source btw",
     SubTitle = "shaka passou aqui",
     TabWidth = 160,
-    Size = UDim2.fromOffset(400, 300),
+    Size = UDim2.fromOffset(600, 450),
     Acrylic = true,
     Theme = "Dark"
 })
