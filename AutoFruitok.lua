@@ -15,12 +15,12 @@ local Window = Fluent:CreateWindow({
 })
 
 local Tabs = {
-    Main = Window:AddTab({ Title = "Teleport", Icon = "fruit" }),
+    Main = Window:AddTab({ Title = "Auto fruit", Icon = "fruit" }),
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
 
 local MainSection = Tabs.Main:AddSection("Fruit Teleport", {
-    Title = "Fruit Teleport System",
+    Title = "aa",
     Side = "Left"
 })
 
