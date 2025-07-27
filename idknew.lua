@@ -6,6 +6,8 @@ local plr = Players.LocalPlayer
 function GetGame()
     if ID == 15014439457 then
         return "db.lua"
+    elseif ID == 2753915549 or 4442272183 or 7449423635 then 
+        return "bffinder.lua"
     else
         print("Game is not supported.")
         return nil
