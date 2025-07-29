@@ -5,7 +5,7 @@ local plr = Players.LocalPlayer
 
 function GetGame()
     if ID == 15014439457 or 5170731021 then
-        return "db.lua"
+        return ""
     elseif ID == 2753915549 or 4442272183 or 7449423635 then 
         return "bffinder.lua"
     else
