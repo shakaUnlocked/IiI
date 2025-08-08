@@ -1,0 +1,11 @@
+function aa()
+    while true do
+        local teamArgs = {"ChooseTeam", "Pirates"}
+        game:GetService("ReplicatedStorage"):WaitForChild("BetweenSides"):WaitForChild("Remotes"):WaitForChild("Events"):WaitForChild("PlayerEvent"):FireServer(unpack(teamArgs))
+        task.wait()
+        local fruitArgs = {"StoreFruit"}
+        game:GetService("ReplicatedStorage"):WaitForChild("BetweenSides"):WaitForChild("Remotes"):WaitForChild("Events"):WaitForChild("ToolsEvent"):FireServer(unpack(fruitArgs))
+        task.wait()
+    end
+end
+aa()
